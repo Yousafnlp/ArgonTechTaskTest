@@ -1,0 +1,41 @@
+.p-rel{
+    position: relative;
+}
+
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+
+.nest-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m0{
+    margin-top: -14px;
+}
+
+.nest-flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .res-padding{
+        padding-left: 13px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1280px) {
+    .res-padding{
+        padding-left: 0px;
+    }
+    
+}
