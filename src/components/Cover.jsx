@@ -69,11 +69,15 @@ function Cover() {
     }
 
     
+
+    
     return (
         <>
             <div >
-                <Container>
-                    <Grid container mt={5} >
+
+                <Container >
+
+                    <Grid container  mt={5} >
                         <Grid xs={12} sm={12} md={12} xl={6} lg={6}>
                             <div className='p-rel'>
                                 <img src={cover} fullWidth label="fullWidth" id="fullWidth" alt="cover-car" style={imgStyle} />
@@ -83,8 +87,11 @@ function Cover() {
                             </div>
 
                         </Grid>
-                        <Grid pt={2} xs={12} sm={12} md={12} xl={6} lg={6}>
-                            <div className="res-padding">
+
+                        <Grid pt={0} xs={12} sm={12} md={12}  xl={6} lg={6}>
+                            <Box >
+                                
+                                                            <div className="res-padding">
                             <div className='dis-flex' >
                                 <div>
                                     <Avatar style={av_lg} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
@@ -109,8 +116,8 @@ function Cover() {
                             </Typography>
 
 
-                            <Typography variant="body2" mt={3} mb={4} style={para} gutterBottom>
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                            <Typography variant="body2" mt={4} pt={1} mb={4} style={para} gutterBottom>
+                                It is a long established fact that a reader will be distracted by the readable content, It is a long established fact that a reader will be distracted by the readable content, of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
                             </Typography>
                             <Box mb={1}>
                                 <Typography style={tag_line2} variant="caption" gutterBottom>
@@ -138,8 +145,11 @@ function Cover() {
                                     <EditLocationIcon /> View Map
                                 </Button>
                             </div>
+
                             <CoverDropdown />
                             </div>
+                            </Box>
+
                         </Grid>
 
                     </Grid>

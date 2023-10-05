@@ -8,7 +8,7 @@ import Tagline from '../components/Tagline';
 function HomePage() {
   return (
 
-<>
+< >
      <Tagline/>
     <Cover/>
     <FirstSection/>

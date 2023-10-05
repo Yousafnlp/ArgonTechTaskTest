@@ -16,18 +16,33 @@ const blueBtn = {
 const Accordion_tags = {
   fontWeight: "500",
 }
+// const accordionStyle = {
+//   backgroundColor: '#f4f4f4',
+//   position: 'absolute',
+//   zIndex: '1',
+//   // width: '100%',
+
+// };
 
 const accordionStyle = {
   backgroundColor: '#f4f4f4',
+  position: 'absolute',
+  zIndex: '1',
+  width: '100%',
+
 };
+
+
 
 export default function CoverDropdown() {
   
 
 
   return (
-    <Box mt={2}>
-      <Accordion style={accordionStyle} >
+<div className='drop_down'>
+    <Box   mt={2}>
+
+      <Accordion  style={accordionStyle} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -66,5 +81,6 @@ export default function CoverDropdown() {
         </AccordionDetails>
       </Accordion>
     </Box >
+      </div>
   );
 }
