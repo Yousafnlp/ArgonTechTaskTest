@@ -59,7 +59,7 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .res-padding{
         padding-left: 0px;
         padding-top: 15px;
@@ -90,4 +90,24 @@
     }
 }
 
- 
+@media screen and (max-width: 1279px) {
+
+    .res-padding{
+        padding-left: 13px;
+    }
+
+
+    .drop_down{
+        margin-bottom: 65px;
+    }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .drop_down{
+        margin-bottom: 65px;
+    }
+
+}
