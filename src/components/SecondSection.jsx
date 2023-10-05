@@ -28,26 +28,17 @@ function SecondSection() {
         backgroundColor: '#f4f4f4',
     }
 
-    const boxes = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#0066b1',
-        flexDirection: 'column',
-        height: '120px',
-        width: '160px'
-        // marginLeft: '5px'
-    }
 
-    const boxes2 = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#ffffff',
-        flexDirection: 'column',
-        height: '120px',
-        width: '160px'
-    }
+    // const boxes = {
+    //     display: 'flex',
+    //     justifyContent: 'center',
+    //     alignItems: 'center',
+    //     backgroundColor: '#0066b1',
+    //     flexDirection: 'column',
+    //     height: '120px',
+    //     width: '160px'
+    //     // marginLeft: '5px'
+    // }
 
     const acd_boxes = {
         display: 'flex',
@@ -125,9 +116,9 @@ function SecondSection() {
 
 
                             <Box style={acd_boxes} container m={1} spacing={4} >
-                                <Box  m={1} style={boxes}>
+                                <Box  m={1}  >
 
-
+<div className='boxes_accodian1'>
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Color
                                     </Typography>
@@ -136,12 +127,13 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         Amber
                                     </Typography>
-
+                                    </div>
 
                                 </Box>
 
 
-                                <Box  m={1} style={boxes2}>
+                                <Box  m={1}  >
+                                <div className='boxes_accodian'>
 
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Serial ID
@@ -149,10 +141,12 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         GULHB130
                                     </Typography>
+                                    </div>
 
                                 </Box>
 
-                                <Box  m={1} style={boxes2}>
+                                <Box  m={1}  >
+                                <div className='boxes_accodian'>
 
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Nose
@@ -160,10 +154,12 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         Rose Lychee...
                                     </Typography>
+                                    </div>
 
                                 </Box>
 
-                                <Box  m={1} style={boxes2}>
+                                <Box  m={1}  >
+                                <div className='boxes_accodian'>
 
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Serial ID
@@ -171,10 +167,12 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         GULHB130
                                     </Typography>
+                                    </div>
 
                                 </Box>
 
-                                <Box  m={1} style={boxes2}>
+                                <Box  m={1}  >
+                                <div className='boxes_accodian'>
 
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Serial ID
@@ -182,10 +180,12 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         GULHB130
                                     </Typography>
+                                    </div>
 
                                 </Box>
 
-                                <Box  m={1} style={boxes2}>
+                                <Box  m={1}  >
+                                <div className='boxes_accodian'>
 
                                     <Typography style={tag_line} mb={0} variant="caption" gutterBottom>
                                         Serial ID
@@ -193,6 +193,7 @@ function SecondSection() {
                                     <Typography style={tag_line2} mb={0} variant="caption" gutterBottom>
                                         GULHB130
                                     </Typography>
+                                    </div>
 
                                 </Box>
 

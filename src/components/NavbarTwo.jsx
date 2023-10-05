@@ -21,9 +21,7 @@ function NavbarTwo() {
   const nav_mob = {
     display: 'flex',
     flexDirection: 'column',
-    gap: '10px',
-    // alignItems: 'center',
-    // justifyContent: 'center'
+    gap: '10px'
 
   }
 
@@ -43,12 +41,19 @@ function NavbarTwo() {
   }
   
 
+  const mob_tool = {
+    display: 'flex',
+    justifyContent: 'space-between'
+  }
   
+  const ib ={
+    display: 'block'
+  }
   return (
   <>
   
-      <Box sx={{ background: "white" }}>
-        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+      <Box pt={2}>
+        <Toolbar  style={mob_tool}>
           <Link href="/">
             <Box
               component="img"
@@ -63,7 +68,8 @@ function NavbarTwo() {
             aria-label="open mobile menu"
             edge="end"
             onClick={handleMenuClick}
-            sx={{ display: { xs: "block"} }}
+            style={ib}
+            
           >
             <MenuIcon />
           </IconButton>

@@ -27,12 +27,35 @@
     position: relative;
 }
 
+
+
+
 @media screen and (min-width: 1280px) {
     .res-padding{
         margin-right: 13px;
         padding-left: 13px;
     }
 
+    .boxes_accodian1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0066b1;
+        flex-direction: column;
+        height: 120px;
+        width: 160px;
+    }
+
+    .boxes_accodian{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        flex-direction: column;
+        height: 120px;
+        width: 160px;
+    }
+    
     
 }
 
@@ -46,6 +69,25 @@
         margin-bottom: 65px;
     }
 
+    .boxes_accodian1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0066b1;
+        flex-direction: column;
+        height: 75px;
+        width: 110px;
+    }
+
+    .boxes_accodian{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        flex-direction: column;
+        height: 75px;
+        width: 110px;
+    }
 }
 
  
